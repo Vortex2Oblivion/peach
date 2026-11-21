@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -26,11 +28,93 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c941ae-bbdd-4bc6-b5a2-a2ea89158ca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/pugixml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/raylib" afterDir="false" />
+    <list default="true" id="36c941ae-bbdd-4bc6-b5a2-a2ea89158ca9" name="Changes" comment="remove">
+      <change afterPath="$PROJECT_DIR$/include/Peach.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Camera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Camera.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Game.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Group.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Scene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Scene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Sprite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Sprite.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Text.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/Text.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/data/Song.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/data/Song.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/data/animation/Animation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/data/animation/Animation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/data/animation/Frame.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/game/AnimationController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/game/AnimationController.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/game/Conductor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/game/Conductor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/game/events/CameraTarget.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/graphics/Shader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/graphics/Shader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/math/Axes.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Alphabet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Alphabet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Character.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Character.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Countdown.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Countdown.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/HealthBar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/HealthBar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/HealthIcon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/HealthIcon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Stage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/Stage.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/debug/PerformanceTracker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/debug/PerformanceTracker.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/Note.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/Note.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/NoteField.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/NoteField.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/NoteLane.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/NoteLane.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/StrumNote.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/objects/notes/StrumNote.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/sound/Sound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/sound/Sound.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/sound/SoundManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/sound/SoundManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/ui/AlphabetList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/ui/AlphabetList.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/ui/Bar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/ui/Bar.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/CoolUtil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/CoolUtil.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/MacOS.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/MacOS.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/ProcessInfo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/ProcessInfo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Save.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Save.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Timer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Timer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Tween.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peach/utilities/Tween.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Peach.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/peach.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/gamemode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_android.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_cmake.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_cmake.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_examples_linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_examples_linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_examples_windows.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_examples_windows.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_macos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_macos.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_webassembly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_webassembly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/build_windows.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/build_windows.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/.github/workflows/parse_api.yml" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/.github/workflows/parse_api.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/raylib/projects/scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/external/raylib/projects/scripts/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,78 +125,88 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vortex2Oblivion"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vortex2Oblivion&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vortex2Oblivion/peach.git",
-    "accountId": "93084fcc-3429-4a2c-92db-e0faca1fb555"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vortex2Oblivion/peach.git&quot;,
+    &quot;accountId&quot;: &quot;bbc31d26-8f19-4d75-8987-300f158e0ccb&quot;
   }
-}]]></component>
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="1Wy6OePu" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.002586182036332" />
-      <entry key="MS500" value="1.8343485677490432" />
-      <entry key="S2" value="8.111192412451718" />
-      <entry key="S5" value="16.97935819994818" />
-      <entry key="S10" value="23.24458296206857" />
-      <entry key="S30" value="29.244911529110546" />
-      <entry key="S60" value="31.23404911031232" />
-      <entry key="M2" value="34.84306407802285" />
-      <entry key="M5" value="47.28124612138198" />
-      <entry key="M10" value="58.212137970799596" />
-      <entry key="M15" value="63.380566173013854" />
-      <entry key="M30" value="69.57441321254751" />
-      <entry key="H1" value="73.11881076378498" />
-      <entry key="H2" value="75.01535471089683" />
-      <entry key="H4" value="75.99641081317019" />
-      <entry key="D1" value="76.8311483125823" />
-      <entry key="W1" value="76.97583917891863" />
+      <entry key="MS100" value="2.34512117628389E-30" />
+      <entry key="MS500" value="1.497549235122387E-6" />
+      <entry key="S2" value="0.05663156354310436" />
+      <entry key="S5" value="0.48116583963629295" />
+      <entry key="S10" value="1.0240715942980452" />
+      <entry key="S30" value="1.9333442554868254" />
+      <entry key="S60" value="2.3732405402620578" />
+      <entry key="M2" value="2.659170622797537" />
+      <entry key="M5" value="3.477701706319551" />
+      <entry key="M10" value="7.516159964731558" />
+      <entry key="M15" value="11.893141461121328" />
+      <entry key="M30" value="20.41725059288553" />
+      <entry key="H1" value="28.357685735782837" />
+      <entry key="H2" value="42.239394435379516" />
+      <entry key="H4" value="67.75059661871292" />
+      <entry key="D1" value="124.69023449958105" />
+      <entry key="W1" value="141.01259308993914" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000165161514563" />
+      <entry key="S2" value="1.0736504379107419" />
+      <entry key="S5" value="1.6351443994957795" />
+      <entry key="S10" value="2.814685328580886" />
+      <entry key="S30" value="5.825381413116477" />
+      <entry key="S60" value="7.506225289515286" />
+      <entry key="M2" value="8.627397610762284" />
+      <entry key="M5" value="9.519715968896824" />
+      <entry key="M10" value="10.486270347497738" />
+      <entry key="M15" value="11.344215558597993" />
+      <entry key="M30" value="12.943050544356248" />
+      <entry key="H1" value="14.302566936162734" />
+      <entry key="H2" value="15.84032028536767" />
+      <entry key="H4" value="18.03283369047752" />
+      <entry key="D1" value="22.518568150667814" />
+      <entry key="W1" value="23.771560668150425" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9819532567665649" />
-      <entry key="MS500" value="1.8267311088724005" />
-      <entry key="S2" value="8.102275057466983" />
-      <entry key="S5" value="16.971284306554008" />
-      <entry key="S10" value="23.238854041434514" />
-      <entry key="S30" value="29.242446198655323" />
-      <entry key="S60" value="31.23271635125313" />
-      <entry key="M2" value="34.84225969298918" />
-      <entry key="M5" value="47.28070663935583" />
-      <entry key="M10" value="58.211769802887645" />
-      <entry key="M15" value="63.380289446797576" />
-      <entry key="M30" value="69.57425602984159" />
-      <entry key="H1" value="73.11872677207587" />
-      <entry key="H2" value="75.01531126815088" />
-      <entry key="H4" value="75.9963887173014" />
-      <entry key="D1" value="76.83114457680739" />
-      <entry key="W1" value="76.97583864392062" />
+      <entry key="MS100" value="0.014377932041013671" />
+      <entry key="MS500" value="0.42810283485294803" />
+      <entry key="S2" value="0.9184079718834018" />
+      <entry key="S5" value="1.9378402546221842" />
+      <entry key="S10" value="3.652524382598925" />
+      <entry key="S30" value="7.615577539707314" />
+      <entry key="S60" value="9.78460497269275" />
+      <entry key="M2" value="11.231212114146045" />
+      <entry key="M5" value="12.972554225511875" />
+      <entry key="M10" value="17.98809657982269" />
+      <entry key="M15" value="23.226608945342058" />
+      <entry key="M30" value="33.35380246295832" />
+      <entry key="H1" value="42.656507697793586" />
+      <entry key="H2" value="58.07749841158349" />
+      <entry key="H4" value="85.78204175005888" />
+      <entry key="D1" value="147.2084711509778" />
+      <entry key="W1" value="164.7841023570632" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -126,6 +220,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3MAPgkCa4IxWTUGZRPSZ4WpcCTm" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,6 +230,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.peach_example.executor&quot;: &quot;Debug&quot;,
     &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
     &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -141,38 +239,51 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/paul/Storage/coding/c/hlffi test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/CLionProjects/peach/peach&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/peach" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="peach" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="peach" TARGET_NAME="peach" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SelectedDebugProfileService"><![CDATA[{
-  "profileIdByStamp": [
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
     {
-      "first": {
-        "##RUN_CONFIGURATION##": "CMake Application.peach",
-        "cmake": null
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.peach&quot;,
+        &quot;cmake&quot;: null
       },
-      "second": "7fed9e30-fcf8-44af-9d50-cafade44bb47"
+      &quot;second&quot;: &quot;7fed9e30-fcf8-44af-9d50-cafade44bb47&quot;
     }
   ],
-  "modificationCount": 8
-}]]></component>
+  &quot;modificationCount&quot;: 8
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36c941ae-bbdd-4bc6-b5a2-a2ea89158ca9" name="Changes" comment="" />
@@ -185,5 +296,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove" />
   </component>
 </project>
